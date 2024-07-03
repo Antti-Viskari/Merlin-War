@@ -6,6 +6,11 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"W:/GITREP/Content/BP_GamePlay.uasset",
+				"W:/GITREP/Content/S_Cards.uasset",
+				"W:/GITREP/Content/ST_Cards.uasset",
+				"W:/GITREP/Content/DT_Cards.uasset",
+				"W:/GITREP/Content/Art/NUMs/NS_21.uasset",
+				"W:/GITREP/Content/Art/NS_21.uasset",
 				"W:/UNREAL PROJECTS/XAMK/MODULE_3/Merlin_War/Content/MerlinWar.umap",
 				"W:/UNREAL PROJECTS/XAMK/MODULE_3/Merlin_War/Content/Art/NUMs/Numbers_Sprite_0.uasset",
 				"W:/UNREAL PROJECTS/XAMK/MODULE_3/Merlin_War/Content/Art/NUMs/Numbers_Sprite_1.uasset",
