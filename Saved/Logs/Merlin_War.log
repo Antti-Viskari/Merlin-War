@@ -4676,3 +4676,689 @@ Script Stack (0 frames) :
 [2024.07.05-21.03.28:401][581]LogFileHelpers: InternalPromptForCheckoutAndSave took 218 ms (total: 3.24 sec)
 [2024.07.05-21.03.28:409][581]AssetCheck: New page: Asset Save: BP_GamePlay
 [2024.07.05-21.03.28:409][581]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BP_GamePlay.BP_GamePlay
+[2024.07.05-21.12.54:861][  2]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.05-21.12.54:866][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-21.12.54:866][  2]PIE: New page: PIE session: MerlinWar (6 июл. 2024 г., 03:12:54)
+[2024.07.05-21.12.54:866][  2]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MerlinWar
+[2024.07.05-21.12.54:867][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001012s)
+[2024.07.05-21.12.54:867][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MerlinWar.MerlinWar to /Game/UEDPIE_0_MerlinWar.MerlinWar (0.001053s)
+[2024.07.05-21.12.54:867][  2]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-21.12.54:868][  2]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-21.12.54:868][  2]LogAIModule: Creating AISystem for world MerlinWar
+[2024.07.05-21.12.54:868][  2]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2024.07.05-21.12.54:893][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.07.05-21.12.54:895][  2]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2024.07.05-21.12.54:895][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-21.12.54:895][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-21.12.54:895][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-21.12.54:895][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-21.12.54:895][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-21.12.54:895][  2]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.07.05-21.12.54:895][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-21.12.54:895][  2]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-21.12.54:896][  2]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-21.12.54:896][  2]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-21.12.54:896][  2]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-21.12.54:899][  2]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-21.12.54:920][  2]LogAudioMixer: Display: Using Audio Hardware Device Наушники (JBL TUNE710BT)
+[2024.07.05-21.12.54:921][  2]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-21.12.54:921][  2]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-21.12.54:921][  2]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-21.12.54:921][  2]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2024.07.05-21.12.54:921][  2]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2024.07.05-21.12.54:923][  2]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2024.07.05-21.12.54:923][  2]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2024.07.05-21.12.54:923][  2]LogInit: FAudioDevice initialized with ID 43.
+[2024.07.05-21.12.54:923][  2]LogAudio: Display: Audio Device (ID: 43) registered with world 'MerlinWar'.
+[2024.07.05-21.12.54:923][  2]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 43
+[2024.07.05-21.12.54:928][  2]LogLoad: Game class is 'GM_War_C'
+[2024.07.05-21.12.54:928][  2]LogWorld: Bringing World /Game/UEDPIE_0_MerlinWar.MerlinWar up for play (max tick rate 0) at 2024.07.06-00.12.54
+[2024.07.05-21.12.54:929][  2]LogWorld: Bringing up level for play took: 0.000559
+[2024.07.05-21.12.54:930][  2]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2024.07.05-21.12.54:932][  2]PIE: Server logged in
+[2024.07.05-21.12.54:933][  2]PIE: Play in editor total start time 0,066 seconds.
+[2024.07.05-21.12.54:946][  2]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.12.54:946][  2]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.12.54:947][  2]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.12.54:947][  2]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.12.54:947][  2]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.12.54:947][  2]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.12.54:948][  2]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.12.54:948][  2]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.12.54:948][  2]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.12.54:948][  2]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.12.54:949][  2]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.12.54:949][  2]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.12.57:919][179]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.05-21.12.57:919][179]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.07.05-21.12.57:919][179]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.07.05-21.13.14:884][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-21.13.14:884][193]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MerlinWar
+[2024.07.05-21.13.14:884][193]LogWorld: UWorld::CleanupWorld for MerlinWar, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-21.13.14:884][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-21.13.14:886][193]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-21.13.14:889][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-21.13.14:912][193]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.05-21.13.14:912][193]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 43
+[2024.07.05-21.13.14:912][193]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.07.05-21.13.14:913][193]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.07.05-21.13.14:919][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-21.13.14:922][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.07.05-21.13.14:930][193]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.13.14:931][193]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.13.14:958][197]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2024.07.05-21.20.49:965][876]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2024.07.05-21.20.49:965][876]LogWindowsTextInputMethodSystem: Activated input method: Русский (Россия) - (Keyboard).
+[2024.07.05-21.21.36:753][610]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2024.07.05-21.21.36:753][610]LogWindowsTextInputMethodSystem: Activated input method: Английский (США) - (Keyboard).
+[2024.07.05-21.22.14:736][835]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.22.14:857][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.07.05-21.22.16:076][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.07.05-21.22.16:081][902]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.05-21.22.16:147][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GamePlay" FILE="W:/GITREP/Content/BP_GamePlay.uasset" SILENT=true
+[2024.07.05-21.22.16:297][902]LogSavePackage: Moving output files for package: /Game/BP_GamePlay
+[2024.07.05-21.22.16:298][902]LogSavePackage: Moving 'W:/GITREP/Saved/BP_GamePlay7157364A42CAAE9CC62D0CB6A1B96F4E.tmp' to 'W:/GITREP/Content/BP_GamePlay.uasset'
+[2024.07.05-21.22.16:304][902]LogFileHelpers: InternalPromptForCheckoutAndSave took 223 ms (total: 3.47 sec)
+[2024.07.05-21.22.16:316][902]AssetCheck: New page: Asset Save: BP_GamePlay
+[2024.07.05-21.22.16:316][902]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BP_GamePlay.BP_GamePlay
+[2024.07.05-21.26.39:916][ 87]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.26.40:041][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.07.05-21.27.21:900][537]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.05-21.27.21:904][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-21.27.21:904][537]PIE: New page: PIE session: MerlinWar (6 июл. 2024 г., 03:27:21)
+[2024.07.05-21.27.21:904][537]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MerlinWar
+[2024.07.05-21.27.21:905][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000930s)
+[2024.07.05-21.27.21:905][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MerlinWar.MerlinWar to /Game/UEDPIE_0_MerlinWar.MerlinWar (0.000964s)
+[2024.07.05-21.27.21:905][537]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-21.27.21:905][537]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-21.27.21:905][537]LogAIModule: Creating AISystem for world MerlinWar
+[2024.07.05-21.27.21:906][537]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2024.07.05-21.27.21:928][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.07.05-21.27.21:932][537]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2024.07.05-21.27.21:932][537]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-21.27.21:932][537]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-21.27.21:932][537]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-21.27.21:932][537]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-21.27.21:932][537]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-21.27.21:932][537]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.07.05-21.27.21:932][537]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-21.27.21:932][537]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-21.27.21:932][537]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-21.27.21:933][537]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-21.27.21:933][537]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-21.27.21:935][537]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-21.27.21:957][537]LogAudioMixer: Display: Using Audio Hardware Device Наушники (JBL TUNE710BT)
+[2024.07.05-21.27.21:959][537]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-21.27.21:959][537]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-21.27.21:959][537]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-21.27.21:959][537]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2024.07.05-21.27.21:959][537]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2024.07.05-21.27.21:960][537]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2024.07.05-21.27.21:960][537]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2024.07.05-21.27.21:960][537]LogInit: FAudioDevice initialized with ID 44.
+[2024.07.05-21.27.21:960][537]LogAudio: Display: Audio Device (ID: 44) registered with world 'MerlinWar'.
+[2024.07.05-21.27.21:960][537]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2024.07.05-21.27.21:962][537]LogLoad: Game class is 'GM_War_C'
+[2024.07.05-21.27.21:963][537]LogWorld: Bringing World /Game/UEDPIE_0_MerlinWar.MerlinWar up for play (max tick rate 0) at 2024.07.06-00.27.21
+[2024.07.05-21.27.21:963][537]LogWorld: Bringing up level for play took: 0.000324
+[2024.07.05-21.27.21:964][537]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2024.07.05-21.27.21:967][537]PIE: Server logged in
+[2024.07.05-21.27.21:967][537]PIE: Play in editor total start time 0,063 seconds.
+[2024.07.05-21.27.21:985][537]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.27.21:985][537]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.27.21:985][537]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.27.21:986][537]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.27.21:986][537]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.27.21:986][537]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.27.21:987][537]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.27.21:987][537]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.27.21:987][537]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.27.21:987][537]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.27.21:988][537]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.27.21:988][537]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.27.22:803][588]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.05-21.27.22:803][588]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.07.05-21.27.22:803][588]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.07.05-21.27.39:554][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-21.27.39:554][591]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MerlinWar
+[2024.07.05-21.27.39:554][591]LogWorld: UWorld::CleanupWorld for MerlinWar, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-21.27.39:554][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-21.27.39:571][591]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-21.27.39:575][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-21.27.39:605][591]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.05-21.27.39:606][591]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2024.07.05-21.27.39:606][591]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.07.05-21.27.39:608][591]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.07.05-21.27.39:612][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-21.27.39:613][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.07.05-21.27.39:631][591]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.27.39:632][591]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.27.39:635][592]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2024.07.05-21.28.32:041][629]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.28.32:164][629]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.07.05-21.28.34:059][730]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.05-21.28.34:064][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-21.28.34:064][730]PIE: New page: PIE session: MerlinWar (6 июл. 2024 г., 03:28:34)
+[2024.07.05-21.28.34:064][730]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MerlinWar
+[2024.07.05-21.28.34:065][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000779s)
+[2024.07.05-21.28.34:065][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MerlinWar.MerlinWar to /Game/UEDPIE_0_MerlinWar.MerlinWar (0.000809s)
+[2024.07.05-21.28.34:065][730]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-21.28.34:065][730]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-21.28.34:065][730]LogAIModule: Creating AISystem for world MerlinWar
+[2024.07.05-21.28.34:065][730]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2024.07.05-21.28.34:085][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.07.05-21.28.34:091][730]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2024.07.05-21.28.34:091][730]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-21.28.34:091][730]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-21.28.34:091][730]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-21.28.34:091][730]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-21.28.34:091][730]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-21.28.34:091][730]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.07.05-21.28.34:091][730]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-21.28.34:091][730]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-21.28.34:091][730]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-21.28.34:091][730]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-21.28.34:091][730]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-21.28.34:093][730]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-21.28.34:114][730]LogAudioMixer: Display: Using Audio Hardware Device Наушники (JBL TUNE710BT)
+[2024.07.05-21.28.34:115][730]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-21.28.34:115][730]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-21.28.34:115][730]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-21.28.34:116][730]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2024.07.05-21.28.34:116][730]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2024.07.05-21.28.34:116][730]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2024.07.05-21.28.34:116][730]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2024.07.05-21.28.34:116][730]LogInit: FAudioDevice initialized with ID 45.
+[2024.07.05-21.28.34:116][730]LogAudio: Display: Audio Device (ID: 45) registered with world 'MerlinWar'.
+[2024.07.05-21.28.34:116][730]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 45
+[2024.07.05-21.28.34:122][730]LogLoad: Game class is 'GM_War_C'
+[2024.07.05-21.28.34:122][730]LogWorld: Bringing World /Game/UEDPIE_0_MerlinWar.MerlinWar up for play (max tick rate 0) at 2024.07.06-00.28.34
+[2024.07.05-21.28.34:123][730]LogWorld: Bringing up level for play took: 0.000447
+[2024.07.05-21.28.34:124][730]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2024.07.05-21.28.34:125][730]PIE: Server logged in
+[2024.07.05-21.28.34:126][730]PIE: Play in editor total start time 0,062 seconds.
+[2024.07.05-21.28.34:139][730]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.28.34:139][730]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.28.34:139][730]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.28.34:140][730]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.28.34:140][730]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.28.34:140][730]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.28.34:141][730]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.28.34:141][730]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.28.34:141][730]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.28.34:142][730]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.28.34:142][730]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.28.34:142][730]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.28.36:580][875]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.05-21.28.36:580][875]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.07.05-21.28.36:580][875]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.07.05-21.28.58:973][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-21.28.58:973][216]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MerlinWar
+[2024.07.05-21.28.58:973][216]LogWorld: UWorld::CleanupWorld for MerlinWar, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-21.28.58:973][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-21.28.58:985][216]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-21.28.58:988][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-21.28.59:018][216]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.05-21.28.59:018][216]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 45
+[2024.07.05-21.28.59:018][216]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2024.07.05-21.28.59:020][216]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2024.07.05-21.28.59:022][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-21.28.59:024][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.07.05-21.28.59:034][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.28.59:034][216]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.28.59:054][219]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2024.07.05-21.29.04:596][553]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.05-21.29.04:700][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GamePlay" FILE="W:/GITREP/Content/BP_GamePlay.uasset" SILENT=true
+[2024.07.05-21.29.04:847][553]LogSavePackage: Moving output files for package: /Game/BP_GamePlay
+[2024.07.05-21.29.04:848][553]LogSavePackage: Moving 'W:/GITREP/Saved/BP_GamePlay2D9B77A14DA44E583128B79D7821B16A.tmp' to 'W:/GITREP/Content/BP_GamePlay.uasset'
+[2024.07.05-21.29.04:854][553]LogFileHelpers: InternalPromptForCheckoutAndSave took 257 ms (total: 3.72 sec)
+[2024.07.05-21.29.04:862][553]AssetCheck: New page: Asset Save: BP_GamePlay
+[2024.07.05-21.29.04:862][553]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BP_GamePlay.BP_GamePlay
+[2024.07.05-21.30.30:492][491]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.30.30:600][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.07.05-21.31.47:086][870]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.31.47:198][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.07.05-21.32.15:640][468]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.32.15:763][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.07.05-21.35.38:041][250]BlueprintLog: New page: Collapse to Function
+[2024.07.05-21.36.57:470][874]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.36.57:514][874]LogBlueprint: Error: [AssetLog] W:\GITREP\Content\BP_GamePlay.uasset: [Compiler] This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2024.07.05-21.36.57:514][874]LogBlueprint: Error: [AssetLog] W:\GITREP\Content\BP_GamePlay.uasset: [Compiler] This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2024.07.05-21.36.57:514][874]LogBlueprint: Error: [AssetLog] W:\GITREP\Content\BP_GamePlay.uasset: [Compiler] This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2024.07.05-21.36.57:514][874]LogBlueprint: Error: [AssetLog] W:\GITREP\Content\BP_GamePlay.uasset: [Compiler] This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2024.07.05-21.36.57:514][874]LogBlueprint: Error: [AssetLog] W:\GITREP\Content\BP_GamePlay.uasset: [Compiler] This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2024.07.05-21.36.57:514][874]LogBlueprint: Error: [AssetLog] W:\GITREP\Content\BP_GamePlay.uasset: [Compiler] This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2024.07.05-21.36.57:598][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.07.05-21.37.23:925][381]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.37.24:057][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.07.05-21.40.13:044][242]LogEditorTransaction: Undo Straighten Connection(s)
+[2024.07.05-21.40.13:128][242]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.40.13:128][242]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.40.16:900][452]LogEditorTransaction: Redo Straighten Connection(s)
+[2024.07.05-21.40.16:998][452]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.40.16:998][452]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.41.35:963][ 80]LogEditorTransaction: Undo Create Pin Link
+[2024.07.05-21.41.36:046][ 80]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.41.36:046][ 80]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.41.50:525][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.07.05-21.41.50:531][914]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.05-21.41.50:589][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GamePlay" FILE="W:/GITREP/Content/BP_GamePlay.uasset" SILENT=true
+[2024.07.05-21.41.50:747][914]LogSavePackage: Moving output files for package: /Game/BP_GamePlay
+[2024.07.05-21.41.50:748][914]LogSavePackage: Moving 'W:/GITREP/Saved/BP_GamePlayEF027EA745D9E27B09F98C86BE1B2A1C.tmp' to 'W:/GITREP/Content/BP_GamePlay.uasset'
+[2024.07.05-21.41.50:754][914]LogFileHelpers: InternalPromptForCheckoutAndSave took 223 ms (total: 3.95 sec)
+[2024.07.05-21.41.50:765][914]AssetCheck: New page: Asset Save: BP_GamePlay
+[2024.07.05-21.41.50:765][914]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BP_GamePlay.BP_GamePlay
+[2024.07.05-21.41.51:692][972]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.41.51:741][972]LogBlueprint: Error: [AssetLog] W:\GITREP\Content\BP_GamePlay.uasset: [Compiler] This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2024.07.05-21.41.51:741][972]LogBlueprint: Error: [AssetLog] W:\GITREP\Content\BP_GamePlay.uasset: [Compiler] This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2024.07.05-21.41.51:741][972]LogBlueprint: Error: [AssetLog] W:\GITREP\Content\BP_GamePlay.uasset: [Compiler] This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2024.07.05-21.41.51:741][972]LogBlueprint: Error: [AssetLog] W:\GITREP\Content\BP_GamePlay.uasset: [Compiler] This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2024.07.05-21.41.51:826][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.07.05-21.42.58:130][861]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.42.58:260][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.07.05-21.45.14:016][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.07.05-21.45.14:023][841]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.05-21.45.14:083][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GamePlay" FILE="W:/GITREP/Content/BP_GamePlay.uasset" SILENT=true
+[2024.07.05-21.45.14:244][841]LogSavePackage: Moving output files for package: /Game/BP_GamePlay
+[2024.07.05-21.45.14:244][841]LogSavePackage: Moving 'W:/GITREP/Saved/BP_GamePlay10C42771449B9D64863465BBDAB25554.tmp' to 'W:/GITREP/Content/BP_GamePlay.uasset'
+[2024.07.05-21.45.14:252][841]LogFileHelpers: InternalPromptForCheckoutAndSave took 228 ms (total: 4.18 sec)
+[2024.07.05-21.45.14:257][841]AssetCheck: New page: Asset Save: BP_GamePlay
+[2024.07.05-21.45.14:257][841]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BP_GamePlay.BP_GamePlay
+[2024.07.05-21.45.15:162][898]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.45.15:291][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.07.05-21.46.32:121][383]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.46.32:252][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.07.05-21.46.35:248][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.07.05-21.46.35:253][559]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.05-21.46.35:319][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GamePlay" FILE="W:/GITREP/Content/BP_GamePlay.uasset" SILENT=true
+[2024.07.05-21.46.35:475][559]LogSavePackage: Moving output files for package: /Game/BP_GamePlay
+[2024.07.05-21.46.35:475][559]LogSavePackage: Moving 'W:/GITREP/Saved/BP_GamePlayFEBEB8F14FBF7678B89792AD8BD0E903.tmp' to 'W:/GITREP/Content/BP_GamePlay.uasset'
+[2024.07.05-21.46.35:483][559]LogFileHelpers: InternalPromptForCheckoutAndSave took 228 ms (total: 4.41 sec)
+[2024.07.05-21.46.35:487][559]AssetCheck: New page: Asset Save: BP_GamePlay
+[2024.07.05-21.46.35:487][559]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BP_GamePlay.BP_GamePlay
+[2024.07.05-21.46.46:090][185]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.46.46:224][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.07.05-21.46.47:134][238]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.05-21.46.47:139][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-21.46.47:139][238]PIE: New page: PIE session: MerlinWar (6 июл. 2024 г., 03:46:47)
+[2024.07.05-21.46.47:139][238]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MerlinWar
+[2024.07.05-21.46.47:140][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000882s)
+[2024.07.05-21.46.47:140][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MerlinWar.MerlinWar to /Game/UEDPIE_0_MerlinWar.MerlinWar (0.000915s)
+[2024.07.05-21.46.47:140][238]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-21.46.47:140][238]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-21.46.47:140][238]LogAIModule: Creating AISystem for world MerlinWar
+[2024.07.05-21.46.47:140][238]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2024.07.05-21.46.47:163][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.07.05-21.46.47:168][238]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2024.07.05-21.46.47:168][238]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-21.46.47:168][238]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-21.46.47:168][238]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-21.46.47:168][238]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-21.46.47:168][238]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-21.46.47:168][238]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.07.05-21.46.47:168][238]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-21.46.47:168][238]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-21.46.47:168][238]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-21.46.47:168][238]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-21.46.47:168][238]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-21.46.47:171][238]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-21.46.47:193][238]LogAudioMixer: Display: Using Audio Hardware Device Наушники (JBL TUNE710BT)
+[2024.07.05-21.46.47:194][238]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-21.46.47:194][238]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-21.46.47:194][238]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-21.46.47:194][238]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2024.07.05-21.46.47:194][238]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2024.07.05-21.46.47:195][238]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2024.07.05-21.46.47:195][238]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2024.07.05-21.46.47:195][238]LogInit: FAudioDevice initialized with ID 46.
+[2024.07.05-21.46.47:195][238]LogAudio: Display: Audio Device (ID: 46) registered with world 'MerlinWar'.
+[2024.07.05-21.46.47:195][238]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 46
+[2024.07.05-21.46.47:200][238]LogLoad: Game class is 'GM_War_C'
+[2024.07.05-21.46.47:201][238]LogWorld: Bringing World /Game/UEDPIE_0_MerlinWar.MerlinWar up for play (max tick rate 0) at 2024.07.06-00.46.47
+[2024.07.05-21.46.47:201][238]LogWorld: Bringing up level for play took: 0.000474
+[2024.07.05-21.46.47:203][238]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2024.07.05-21.46.47:204][238]PIE: Server logged in
+[2024.07.05-21.46.47:205][238]PIE: Play in editor total start time 0,067 seconds.
+[2024.07.05-21.46.47:217][238]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.46.47:218][238]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.46.47:218][238]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.46.47:218][238]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.46.47:219][238]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.46.47:219][238]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.46.47:219][238]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.46.47:219][238]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.46.47:220][238]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.46.47:220][238]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.46.47:220][238]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.46.47:220][238]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.46.48:986][342]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.05-21.46.48:987][342]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.07.05-21.46.48:987][342]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.07.05-21.47.19:413][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-21.47.19:413][164]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MerlinWar
+[2024.07.05-21.47.19:413][164]LogWorld: UWorld::CleanupWorld for MerlinWar, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-21.47.19:413][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-21.47.19:416][164]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-21.47.19:419][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-21.47.19:445][164]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.05-21.47.19:445][164]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 46
+[2024.07.05-21.47.19:446][164]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2024.07.05-21.47.19:447][164]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2024.07.05-21.47.19:450][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-21.47.19:453][164]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.07.05-21.47.19:469][164]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.47.19:469][164]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.47.19:494][166]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2024.07.05-21.48.38:541][802]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.48.38:670][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.07.05-21.48.39:576][833]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.05-21.48.39:581][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-21.48.39:581][833]PIE: New page: PIE session: MerlinWar (6 июл. 2024 г., 03:48:39)
+[2024.07.05-21.48.39:581][833]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MerlinWar
+[2024.07.05-21.48.39:581][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000865s)
+[2024.07.05-21.48.39:581][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MerlinWar.MerlinWar to /Game/UEDPIE_0_MerlinWar.MerlinWar (0.000905s)
+[2024.07.05-21.48.39:581][833]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-21.48.39:581][833]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-21.48.39:582][833]LogAIModule: Creating AISystem for world MerlinWar
+[2024.07.05-21.48.39:582][833]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2024.07.05-21.48.39:605][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.07.05-21.48.39:608][833]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2024.07.05-21.48.39:608][833]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-21.48.39:608][833]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-21.48.39:608][833]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-21.48.39:608][833]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-21.48.39:608][833]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-21.48.39:608][833]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.07.05-21.48.39:608][833]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-21.48.39:608][833]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-21.48.39:608][833]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-21.48.39:608][833]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-21.48.39:608][833]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-21.48.39:610][833]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-21.48.39:630][833]LogAudioMixer: Display: Using Audio Hardware Device Наушники (JBL TUNE710BT)
+[2024.07.05-21.48.39:631][833]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-21.48.39:631][833]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-21.48.39:631][833]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-21.48.39:631][833]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=47
+[2024.07.05-21.48.39:631][833]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=47
+[2024.07.05-21.48.39:633][833]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=47
+[2024.07.05-21.48.39:633][833]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=47
+[2024.07.05-21.48.39:633][833]LogInit: FAudioDevice initialized with ID 47.
+[2024.07.05-21.48.39:633][833]LogAudio: Display: Audio Device (ID: 47) registered with world 'MerlinWar'.
+[2024.07.05-21.48.39:633][833]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 47
+[2024.07.05-21.48.39:638][833]LogLoad: Game class is 'GM_War_C'
+[2024.07.05-21.48.39:639][833]LogWorld: Bringing World /Game/UEDPIE_0_MerlinWar.MerlinWar up for play (max tick rate 0) at 2024.07.06-00.48.39
+[2024.07.05-21.48.39:639][833]LogWorld: Bringing up level for play took: 0.000497
+[2024.07.05-21.48.39:641][833]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2024.07.05-21.48.39:642][833]PIE: Server logged in
+[2024.07.05-21.48.39:643][833]PIE: Play in editor total start time 0,062 seconds.
+[2024.07.05-21.48.39:656][833]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.48.39:656][833]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.48.39:657][833]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.48.39:657][833]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.48.39:657][833]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.48.39:657][833]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.48.39:658][833]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.48.39:658][833]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.48.39:658][833]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.48.39:659][833]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.48.39:659][833]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.48.39:659][833]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.48.42:279][990]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.05-21.48.42:279][990]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.07.05-21.48.42:279][990]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.07.05-21.49.02:874][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-21.49.02:874][223]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MerlinWar
+[2024.07.05-21.49.02:874][223]LogWorld: UWorld::CleanupWorld for MerlinWar, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-21.49.02:874][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-21.49.02:880][223]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-21.49.02:883][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-21.49.02:913][223]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.05-21.49.02:914][223]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 47
+[2024.07.05-21.49.02:914][223]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2024.07.05-21.49.02:915][223]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2024.07.05-21.49.02:917][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-21.49.02:920][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.07.05-21.49.02:929][223]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.49.02:929][223]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.49.02:958][225]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2024.07.05-21.49.55:754][328]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.49.55:887][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.07.05-21.52.01:129][671]LogDerivedDataCache: H:/UNREAL ENGINE/Projects/Tales: Maintenance finished in +00:03:23.964 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 111819 files in 97226 folders with total size 55602 MiB.
+[2024.07.05-21.53.09:524][686]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.07.05-21.53.09:534][686]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.05-21.53.09:595][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GamePlay" FILE="W:/GITREP/Content/BP_GamePlay.uasset" SILENT=true
+[2024.07.05-21.53.09:747][686]LogSavePackage: Moving output files for package: /Game/BP_GamePlay
+[2024.07.05-21.53.09:747][686]LogSavePackage: Moving 'W:/GITREP/Saved/BP_GamePlay66D4BEAA456844050EB648AA8469D3DB.tmp' to 'W:/GITREP/Content/BP_GamePlay.uasset'
+[2024.07.05-21.53.09:754][686]LogFileHelpers: InternalPromptForCheckoutAndSave took 220 ms (total: 4.63 sec)
+[2024.07.05-21.53.09:765][686]AssetCheck: New page: Asset Save: BP_GamePlay
+[2024.07.05-21.53.09:765][686]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BP_GamePlay.BP_GamePlay
+[2024.07.05-21.53.10:980][761]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.53.11:104][761]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.07.05-21.53.20:624][324]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.05-21.53.20:628][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-21.53.20:629][324]PIE: New page: PIE session: MerlinWar (6 июл. 2024 г., 03:53:20)
+[2024.07.05-21.53.20:629][324]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MerlinWar
+[2024.07.05-21.53.20:630][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000850s)
+[2024.07.05-21.53.20:630][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MerlinWar.MerlinWar to /Game/UEDPIE_0_MerlinWar.MerlinWar (0.000883s)
+[2024.07.05-21.53.20:630][324]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-21.53.20:630][324]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-21.53.20:630][324]LogAIModule: Creating AISystem for world MerlinWar
+[2024.07.05-21.53.20:630][324]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2024.07.05-21.53.20:653][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.07.05-21.53.20:658][324]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2024.07.05-21.53.20:658][324]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-21.53.20:658][324]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-21.53.20:658][324]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-21.53.20:658][324]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-21.53.20:658][324]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-21.53.20:658][324]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.07.05-21.53.20:658][324]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-21.53.20:658][324]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-21.53.20:658][324]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-21.53.20:658][324]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-21.53.20:658][324]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-21.53.20:660][324]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-21.53.20:683][324]LogAudioMixer: Display: Using Audio Hardware Device Наушники (JBL TUNE710BT)
+[2024.07.05-21.53.20:684][324]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-21.53.20:684][324]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-21.53.20:684][324]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-21.53.20:684][324]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=48
+[2024.07.05-21.53.20:684][324]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=48
+[2024.07.05-21.53.20:685][324]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=48
+[2024.07.05-21.53.20:685][324]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=48
+[2024.07.05-21.53.20:685][324]LogInit: FAudioDevice initialized with ID 48.
+[2024.07.05-21.53.20:685][324]LogAudio: Display: Audio Device (ID: 48) registered with world 'MerlinWar'.
+[2024.07.05-21.53.20:685][324]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 48
+[2024.07.05-21.53.20:690][324]LogLoad: Game class is 'GM_War_C'
+[2024.07.05-21.53.20:691][324]LogWorld: Bringing World /Game/UEDPIE_0_MerlinWar.MerlinWar up for play (max tick rate 0) at 2024.07.06-00.53.20
+[2024.07.05-21.53.20:691][324]LogWorld: Bringing up level for play took: 0.000582
+[2024.07.05-21.53.20:694][324]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2024.07.05-21.53.20:695][324]PIE: Server logged in
+[2024.07.05-21.53.20:695][324]PIE: Play in editor total start time 0,067 seconds.
+[2024.07.05-21.53.20:708][324]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.53.20:708][324]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.53.20:709][324]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.53.20:709][324]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.53.20:709][324]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.53.20:710][324]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.53.20:710][324]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.53.20:710][324]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.53.20:710][324]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.53.20:711][324]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.53.20:711][324]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.53.20:711][324]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.53.23:158][470]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.05-21.53.23:158][470]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.07.05-21.53.23:158][470]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.07.05-21.54.19:674][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-21.54.19:674][855]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MerlinWar
+[2024.07.05-21.54.19:674][855]LogWorld: UWorld::CleanupWorld for MerlinWar, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-21.54.19:674][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-21.54.19:677][855]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-21.54.19:680][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-21.54.19:711][855]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.05-21.54.19:711][855]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 48
+[2024.07.05-21.54.19:711][855]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
+[2024.07.05-21.54.19:713][855]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
+[2024.07.05-21.54.19:716][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-21.54.19:718][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.07.05-21.54.19:727][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.54.19:727][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.54.19:739][857]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2024.07.05-21.54.45:697][371]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.54.45:821][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.07.05-21.54.48:496][524]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.05-21.54.48:500][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-21.54.48:500][524]PIE: New page: PIE session: MerlinWar (6 июл. 2024 г., 03:54:48)
+[2024.07.05-21.54.48:500][524]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MerlinWar
+[2024.07.05-21.54.48:501][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000807s)
+[2024.07.05-21.54.48:501][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MerlinWar.MerlinWar to /Game/UEDPIE_0_MerlinWar.MerlinWar (0.000839s)
+[2024.07.05-21.54.48:501][524]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-21.54.48:501][524]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-21.54.48:501][524]LogAIModule: Creating AISystem for world MerlinWar
+[2024.07.05-21.54.48:501][524]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2024.07.05-21.54.48:523][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.07.05-21.54.48:527][524]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2024.07.05-21.54.48:527][524]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-21.54.48:527][524]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-21.54.48:527][524]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-21.54.48:527][524]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-21.54.48:527][524]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-21.54.48:527][524]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.07.05-21.54.48:527][524]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-21.54.48:527][524]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-21.54.48:528][524]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-21.54.48:528][524]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-21.54.48:528][524]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-21.54.48:529][524]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-21.54.48:550][524]LogAudioMixer: Display: Using Audio Hardware Device Наушники (JBL TUNE710BT)
+[2024.07.05-21.54.48:550][524]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-21.54.48:550][524]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-21.54.48:550][524]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-21.54.48:551][524]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=49
+[2024.07.05-21.54.48:551][524]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=49
+[2024.07.05-21.54.48:551][524]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=49
+[2024.07.05-21.54.48:553][524]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=49
+[2024.07.05-21.54.48:553][524]LogInit: FAudioDevice initialized with ID 49.
+[2024.07.05-21.54.48:553][524]LogAudio: Display: Audio Device (ID: 49) registered with world 'MerlinWar'.
+[2024.07.05-21.54.48:553][524]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 49
+[2024.07.05-21.54.48:557][524]LogLoad: Game class is 'GM_War_C'
+[2024.07.05-21.54.48:558][524]LogWorld: Bringing World /Game/UEDPIE_0_MerlinWar.MerlinWar up for play (max tick rate 0) at 2024.07.06-00.54.48
+[2024.07.05-21.54.48:558][524]LogWorld: Bringing up level for play took: 0.000475
+[2024.07.05-21.54.48:560][524]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2024.07.05-21.54.48:561][524]PIE: Server logged in
+[2024.07.05-21.54.48:561][524]PIE: Play in editor total start time 0,063 seconds.
+[2024.07.05-21.54.48:583][524]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.54.48:583][524]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.54.48:584][524]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.54.48:584][524]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.54.48:585][524]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.54.48:585][524]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.54.48:586][524]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.54.48:586][524]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.54.48:586][524]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.54.48:586][524]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.54.48:586][524]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.54.48:587][524]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.54.51:634][705]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.05-21.54.51:634][705]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.07.05-21.54.51:634][705]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.07.05-21.55.10:284][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-21.55.10:284][821]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MerlinWar
+[2024.07.05-21.55.10:284][821]LogWorld: UWorld::CleanupWorld for MerlinWar, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-21.55.10:284][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-21.55.10:286][821]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-21.55.10:290][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-21.55.10:325][821]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.05-21.55.10:325][821]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 49
+[2024.07.05-21.55.10:325][821]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2024.07.05-21.55.10:326][821]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2024.07.05-21.55.10:330][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-21.55.10:331][821]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.07.05-21.55.10:340][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.55.10:340][821]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.55.10:351][823]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2024.07.05-21.55.38:938][499]BlueprintLog: New page: Compile BP_GamePlay
+[2024.07.05-21.55.39:071][499]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.07.05-21.55.41:985][669]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.05-21.55.41:990][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.05-21.55.41:990][669]PIE: New page: PIE session: MerlinWar (6 июл. 2024 г., 03:55:41)
+[2024.07.05-21.55.42:023][669]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MerlinWar
+[2024.07.05-21.55.42:024][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000854s)
+[2024.07.05-21.55.42:024][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MerlinWar.MerlinWar to /Game/UEDPIE_0_MerlinWar.MerlinWar (0.000897s)
+[2024.07.05-21.55.42:024][669]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.05-21.55.42:024][669]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.05-21.55.42:024][669]LogAIModule: Creating AISystem for world MerlinWar
+[2024.07.05-21.55.42:025][669]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2024.07.05-21.55.42:056][669]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.07.05-21.55.42:060][669]LogAudio: Display: Creating Audio Device:                 Id: 50, Scope: Unique, Realtime: True
+[2024.07.05-21.55.42:060][669]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.05-21.55.42:060][669]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.05-21.55.42:060][669]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.05-21.55.42:060][669]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.05-21.55.42:060][669]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.07.05-21.55.42:060][669]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.07.05-21.55.42:060][669]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.07.05-21.55.42:060][669]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.05-21.55.42:060][669]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.05-21.55.42:060][669]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.05-21.55.42:060][669]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.05-21.55.42:062][669]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.05-21.55.42:083][669]LogAudioMixer: Display: Using Audio Hardware Device Наушники (JBL TUNE710BT)
+[2024.07.05-21.55.42:083][669]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.05-21.55.42:083][669]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.05-21.55.42:083][669]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.05-21.55.42:084][669]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=50
+[2024.07.05-21.55.42:084][669]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=50
+[2024.07.05-21.55.42:085][669]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=50
+[2024.07.05-21.55.42:085][669]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=50
+[2024.07.05-21.55.42:085][669]LogInit: FAudioDevice initialized with ID 50.
+[2024.07.05-21.55.42:085][669]LogAudio: Display: Audio Device (ID: 50) registered with world 'MerlinWar'.
+[2024.07.05-21.55.42:085][669]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 50
+[2024.07.05-21.55.42:087][669]LogLoad: Game class is 'GM_War_C'
+[2024.07.05-21.55.42:087][669]LogWorld: Bringing World /Game/UEDPIE_0_MerlinWar.MerlinWar up for play (max tick rate 0) at 2024.07.06-00.55.42
+[2024.07.05-21.55.42:087][669]LogWorld: Bringing up level for play took: 0.000280
+[2024.07.05-21.55.42:088][669]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2024.07.05-21.55.42:090][669]PIE: Server logged in
+[2024.07.05-21.55.42:090][669]PIE: Play in editor total start time 0,099 seconds.
+[2024.07.05-21.55.42:100][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.55.42:100][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.55.42:101][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.55.42:101][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.55.42:101][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.55.42:101][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.55.42:103][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.55.42:103][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.55.42:103][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.55.42:103][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.55.42:104][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.55.42:104][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.55.42:888][717]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.07.05-21.55.42:888][717]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.07.05-21.55.42:888][717]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.07.05-21.57.03:514][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-21.57.03:514][548]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MerlinWar
+[2024.07.05-21.57.03:514][548]LogWorld: UWorld::CleanupWorld for MerlinWar, bSessionEnded=true, bCleanupResources=true
+[2024.07.05-21.57.03:514][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-21.57.03:553][548]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.05-21.57.03:555][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.05-21.57.03:607][548]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.05-21.57.03:608][548]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 50
+[2024.07.05-21.57.03:608][548]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50
+[2024.07.05-21.57.03:609][548]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50
+[2024.07.05-21.57.03:611][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.05-21.57.03:614][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.07.05-21.57.03:623][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.57.03:623][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.07.05-21.57.03:627][549]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2024.07.05-21.57.05:638][674]Cmd: SELECT NONE
+[2024.07.05-21.57.09:349][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.07.05-21.57.09:354][892]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.05-21.57.09:417][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GamePlay" FILE="W:/GITREP/Content/BP_GamePlay.uasset" SILENT=true
+[2024.07.05-21.57.09:567][892]LogSavePackage: Moving output files for package: /Game/BP_GamePlay
+[2024.07.05-21.57.09:567][892]LogSavePackage: Moving 'W:/GITREP/Saved/BP_GamePlayD4222640414C7D59330D6DBBA93E6229.tmp' to 'W:/GITREP/Content/BP_GamePlay.uasset'
+[2024.07.05-21.57.09:575][892]LogFileHelpers: InternalPromptForCheckoutAndSave took 221 ms (total: 4.85 sec)
+[2024.07.05-21.57.09:579][892]AssetCheck: New page: Asset Save: BP_GamePlay
+[2024.07.05-21.57.09:579][892]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/BP_GamePlay.BP_GamePlay
+[2024.07.05-21.58.14:873][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
