@@ -5501,3 +5501,29 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.07.06-11.50.22:068][841]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
 [2024.07.06-11.50.23:903][847]LogUdpMessaging: Display: Added local interface '192.168.56.40' to multicast group '230.0.0.1:6666'
 [2024.07.06-11.50.24:068][847]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.07.06-11.50.26:022][853]LogUdpMessaging: Display: Added local interface '192.168.56.40' to multicast group '230.0.0.1:6666'
+[2024.07.06-11.50.26:068][853]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.07.06-11.50.27:936][859]LogUdpMessaging: Display: Added local interface '192.168.56.40' to multicast group '230.0.0.1:6666'
+[2024.07.06-11.50.28:068][859]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.07.06-11.50.29:854][865]LogUdpMessaging: Display: Added local interface '192.168.56.40' to multicast group '230.0.0.1:6666'
+[2024.07.06-11.50.30:069][865]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.07.06-11.50.31:871][871]LogUdpMessaging: Display: Added local interface '192.168.56.40' to multicast group '230.0.0.1:6666'
+[2024.07.06-11.50.32:069][871]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.07.06-11.50.33:885][877]LogUdpMessaging: Display: Added local interface '192.168.56.40' to multicast group '230.0.0.1:6666'
+[2024.07.06-11.50.34:069][877]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.07.06-11.50.35:904][883]LogUdpMessaging: Display: Added local interface '192.168.56.40' to multicast group '230.0.0.1:6666'
+[2024.07.06-11.50.36:069][883]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.07.06-11.50.37:919][889]LogUdpMessaging: Display: Added local interface '192.168.56.40' to multicast group '230.0.0.1:6666'
+[2024.07.06-11.50.38:070][889]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.07.06-11.50.39:933][895]LogUdpMessaging: Display: Added local interface '192.168.56.40' to multicast group '230.0.0.1:6666'
+[2024.07.06-11.50.40:070][895]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.07.06-11.50.41:849][901]LogUdpMessaging: Display: Added local interface '192.168.56.40' to multicast group '230.0.0.1:6666'
+[2024.07.06-11.50.42:071][901]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.07.06-11.50.43:966][907]LogUdpMessaging: Display: Added local interface '192.168.56.40' to multicast group '230.0.0.1:6666'
+[2024.07.06-11.50.44:071][907]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.07.06-11.50.45:884][913]LogUdpMessaging: Display: Added local interface '192.168.56.40' to multicast group '230.0.0.1:6666'
+[2024.07.06-11.50.46:071][913]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.07.06-11.50.47:901][919]LogUdpMessaging: Display: Added local interface '192.168.56.40' to multicast group '230.0.0.1:6666'
+[2024.07.06-11.50.48:072][919]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.07.06-11.50.49:917][925]LogUdpMessaging: Display: Added local interface '192.168.56.40' to multicast group '230.0.0.1:6666'
+[2024.07.06-11.50.50:073][925]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
